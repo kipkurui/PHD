@@ -1,0 +1,346 @@
+    1  sudo update-grub
+    2  sudo apt-get install python
+    3  cd meme_4.9.0/
+    4  ls
+    5  ./configure --prefix=$HOME/meme --with-url=http://meme.nbcr.net/meme 
+    6  ls
+    7  chmod +x configure
+    8  ./configure --prefix=$HOME/meme --with-url=http://meme.nbcr.net/meme 
+    9  make
+   10  make test
+   11  perl
+   12  perl -v
+   13  sudo apt-get update perl
+   14  sudo apt-get install perl
+   15  make test
+   16  make install
+   17  su
+   18  sudo cpan XML::Simple
+   19  make
+   20  make test
+   21  ./configure --prefix=$HOME/meme --with-url=http://meme.nbcr.net/meme
+   22  cd
+   23  cd meme_4.9.1/
+   24  ls
+   25  ./configure 
+   26  make
+   27  ls
+   28  cd src
+   29  ls
+   30  make
+   31  make test
+   32  ls
+   33  cd
+   34  cd meme_4.9.1/
+   35  ls
+   36  make
+   37  make test
+   38  ./configure 
+   39  make
+   40  sudo apt-get install zlib
+   41  sudo apt-get install libxml2
+   42  cd
+   43  ls
+   44  cd mendeleydesktop-1.10.3-linux-x86_64/
+   45  ls
+   46  cd bin/
+   47  ls
+   48  ./mendeleydesktop 
+   49  cd
+   50  scp caleb@bioinf.ict.ru.ac.za:/home/caleb/meme/meme_4.9.0 /home/kipkurui/
+   51  scp caleb@bioinf.ict.ru.ac.za:/home/caleb/meme/meme_4.9.0.tar.gz /home/kipkurui/
+   52  ls
+   53  scp caleb@bioinf.ict.ru.ac.za:/home/caleb/meme/meme_4.9.0.tar /home/kipkurui/
+   54  ls
+   55  cd meme_4.9.1/
+   56  ls
+   57  ./configure --prefix=$HOME/meme --with-url=http://meme.nbcr.net/meme
+   58  make
+   59  cd
+   60  cd meme_4.9.0
+   61  ls
+   62  ./configure --prefix=$HOME/meme --with-url=http://meme.nbcr.net/meme
+   63  make
+   64  make install
+   65  exit
+   66  ssh caleb@bioinf.ict.ru.ac.za
+   67  exit
+   68  sudo atp-get install R
+   69  sudo apt-get install R
+   70  sudo apt-get install r
+   71  R
+   72  sudo apt-get install r-base-core
+   73  lat
+   74  latex
+   75  sudo apt-get install texlive-latex-base
+   76  latex
+   77  cd Downloads/
+   78  ls
+   79  sudo ./AdbeRdr9.5.5-1_i486linux_enu.bin 
+   80  apt-get install ia32-libs
+   81  sudo apt-get install ia32-libs
+   82  latex
+   83  cd Downloads/
+   84  ls
+   85  chmod +x AdbeRdr9.5.5-1_i486linux_enu.bin 
+   86  ls
+   87  sudo ./AdbeRdr9.5.5-1_i486linux_enu.bin 
+   88  Adobe
+   89  sudo apt-get install ipython-notebook
+   90  ipython
+   91  ipython notebook
+   92  ruby
+   93  sudo apt-get install ruby1.9.1
+   94  gem install rails
+   95  sudo gem install rails
+   96  rails
+   97  sudo apt-get install rails
+   98  rails
+   99  sudo add-apt-repository ppa:nvbn-rm/ppa
+  100  sudo apt-get update && sudo apt-get install everpad
+  101  python
+  102  idle
+  103  sudo apt-get install idle
+  104  ce meme_4.9.1/
+  105  ls
+  106  cd meme_4.9.1/
+  107  ls
+  108  ./configure --prefix=$HOME/meme --with-url=http://meme.nbcr.net/meme
+  109  make
+  110  make test
+  111  make install
+  112  meme
+  113  centrimo
+  114  sudo gedit ~/profile
+  115  ls
+  116  cd
+  117  sudo gedit ~/profile
+  118  sudo gedit ~/.profile
+  119  meme
+  120  export PATH=$HOME/meme/bin
+  121  meme
+  122  sudo gedit ~/.profile
+  123  meme
+  124  sudo gedit ~/.profile
+  125  meme
+  126  path
+  127  meme
+  128  meme
+  129  sudo gedit ~/.profile
+  130  meme
+  131  sudo
+  132  centrimo 
+  133  ls
+  134  meme
+  135  dreme
+  136  meme
+  137  centrimo 
+  138  perl
+  139  perl -v
+  140  sudo apt-get update perl
+  141  sudo cpan
+  142  perl -v
+  143  cd PHD-project/PBM_analysis_suite/
+  144  ld
+  145  ls
+  146  perl seed_and_wobble.pl proteinA_combinatorial.txt 8 patterns_8of10.txt patterns_4x44k_all_8mer.txt proteinA
+  147  perl seed_and_wobble.pl proteinA_v1_combinatorial.txt 8 patterns_8of10.txt patterns_4x44k_all_8mer.txt ProteinA
+  148  $perl -e 'print "Hello World\n"'
+  149  perl -e 'print "Hello World\n"'
+  150  python
+  151  R
+  152  ssh caleb@bioinf.ict.ru.ac.za
+  153  ifconfig
+  154  scp caleb@bioinf.ict.ru.ac.za:/home/caleb/
+  155  scp caleb@bioinf.ict.ru.ac.za:/home/caleb/Project/Data/genomes/hg/human.tar.gz /home/kipkurui/
+  156  find
+  157  finf ssh
+  158  find ssh
+  159  clear
+  160  ssh caleb@bioinf.ru.ac.za
+  161  ssh caleb@bioinf.ict.ru.ac.za
+  162  ls
+  163  cd PHD-project/Data/DNase/
+  164  ls
+  165  Derived/
+  166  ls
+  167  cd Derived/
+  168  ls
+  169  grep -c "AGATAAG" DNaseclustured.fa
+  170  grep -c "AGATAAGA" DNaseclustured.fa
+  171  grep -c "A.AGATAAG" DNaseclustured.fa
+  172  grep -c "CTTATCT..A" DNaseclustured.fa
+  173  grep -c "$motif" DNaseclustured.fa
+  174  grep -c $motif DNaseclustured.fa
+  175  motif="TAAT...ATTA"
+  176  grep -c $motif DNaseclustured.fa
+  177  motif="TTAT...ATTA"
+  178  grep -c $motif DNaseclustured.fa
+  179  motif="AATTGGC"
+  180  grep -c $motif DNaseclustured.fa
+  181  motif="CAATTA"
+  182  grep -c $motif DNaseclustured.fa
+  183  file=/home/kipkurui/PHD-project/kmerprobs
+  184  cd $file
+  185  ls
+  186  cd ..
+  187  ls
+  188  file
+  189  $file
+  190  ls $file >TFkmer.txt
+  191  ls
+  192  cat TFkmer.txt 
+  193  cut -f 1 $file/Zscan4.txt 
+  194  for word in $(cat cut -f 1 $file/Zscan4.txt); do grep -c $word /home/kipkurui/PHD-project/Data/DNase/Derived/DNaseclustured.fa; done
+  195  ls
+  196  cd Scripts/
+  197  ls
+  198  chmod +X countkmers.sh
+  199  ls
+  200  chmod +x countkmers.sh
+  201  ls
+  202  ./countkmers.sh 
+  203  idle &
+  204  ./countkmers.sh 
+  205  ./countkmers.sh 
+  206  cd PHD-project/Scripts/
+  207  ./countkmers.sh 
+  208  cd PHD-project/Scripts/
+  209  ls
+  210  ./countkmers.sh
+  211  gksu gedit /etc/default/apport
+  212  cd PHD-project/Data/JASPAR/
+  213  cd ..
+  214  jaspar2meme JASPAR/
+  215  cd JASPAR/
+  216  jaspar2meme pfm_vertebrates.pfm 
+  217  sudo jaspar2meme pfm_vertebrates.pfm 
+  218  su
+  219  cd
+  220  cd Perl5
+  221  cd perl5
+  222  ls
+  223  cd
+  224  chown $USER -R perl5 
+  225  sudo chown $USER -R perl5 
+  226  ls
+  227  cd PHD-project/Data/
+  228  ls
+  229  jaspar2meme JASPAR/
+  230  cd PHD-project/Data/ENCODE/
+  231  sort ChIP-seqlist.txt | uniq -u
+  232  sort -u ChIP-seqlist.tx
+  233  sort ChIP-seqlist.txt | uniq -u
+  234  sort
+  235  ?sort
+  236  man sort
+  237  sort ChIP-seqlist.txt | uniq -c
+  238  sort ChIP-seqlist.txt | uniq -c > ChIP-sequniq.txt
+  239  cd
+  240  cd PHD-project/Data/DNase/
+  241  ls
+  242  cd Derived/
+  243  ls
+  244  word="A.TGCACCC"
+  245  grep -c $word DNaseclustured.fa
+  246  word="TGACGTCA"
+  247  grep -c $word DNaseclustured.fa
+  248  word="ATGACG..TA"
+  249  grep -c $word DNaseclustured.fa
+  250  cd ..
+  251  cd Results/
+  252  ls
+  253  chmod +x countmers-sco.bash
+  254  ./countmers-sco.bash 
+  255  ls
+  256  cd Desktop/
+  257  uniq dups.txt 
+  258  uniq dups.txt > new.txt
+  259  cd Desktop/
+  260  ls
+  261  uniq newtfs.txt >newtfs
+  262  cat newtfs
+  263  cd
+  264  cd ls
+  265  cd PHD-project/Scripts/
+  266  ls
+  267  chmod +x mkdir.bash 
+  268  ls
+  269  ./mkdir.bash 
+  270  ls
+  271  chmod +x download.bash 
+  272  ls
+  273  ./download.bash 
+  274  ls
+  275  cd 
+  276  cd Project/Scripts/
+  277  ls
+  278  chmod FastaFromBed.bash
+  279  chmod +x FastaFromBed.bash
+  280  ./FastaFromBed.bash 
+  281  ssh caleb@bioinf.ict.ru.ac.za
+  282  ls
+  283  ./FastaFromBed.bash 
+  284  ./memechip.sh 
+  285  find Globals.pm
+  286  cd
+  287  sudo chmod -R 777 /home/kipkurui/perl5 
+  288  cd Project/Scripts/
+  289  ./memechip.sh 
+  290  perl -MCPAN -e'install "Globals.pm"'
+  291  perl -MCPAN -e'install "Globals"'
+  292  perl -E 'say for @INC'
+  293  cd
+  294  find "Globals.pm"
+  295  find "Globals"
+  296  find "Globals*
+"
+  297  find "Globals*"
+  298  find "*obals*"
+  299  which Global
+  300  find firefox
+  301  fond chrome
+  302  find chrome
+  303  find "chrome"
+  304  locate chrome
+  305  locate Globals
+  306  cd Project/Scripts/
+  307  ls
+  308  ./memechip.sh 
+  309  sudo mv /home/kipkurui/meme_4.9.1/website/scripts/Globals.pm /usr/local/lib/perl/5.14.2 
+  310  ./memechip.sh 
+  311  locate ExecUtils.pm
+  312  sudo mv /home/kipkurui/meme_4.9.1/scripts/ExecUtils.pm  /usr/local/lib/perl/5.14.2 
+  313  ./memechip.sh 
+  314  sudo mv /home/kipkurui/meme_4.9.1/scripts/MotifUtils.pm  /usr/local/lib/perl/5.14.2 
+  315  ./memechip.sh 
+  316  sudo mv /home/kipkurui/meme_4.9.1/scripts/MotifInMemeXML.pm  /usr/local/lib/perl/5.14.2 
+  317  ./memechip.sh 
+  318  sudo mv /home/kipkurui/meme_4.9.1/scripts/MemeSAX.pm  /usr/local/lib/perl/5.14.2 
+  319  ./memechip.sh 
+  320  sudo mv /home/kipkurui/meme_4.9.1/scripts/MemeSAX.pm  /usr/local/lib/perl/5.14.2 
+  321  locate MemeSAX.pm
+  322  sudo mv /home/kipkurui/meme_4.9.1/scripts/MemeSAX.pm /usr/local/lib/perl/5.14.2 
+  323  sudo mv /home/kipkurui/meme_4.9.0/scripts/MemeSAX.pm /usr/local/lib/perl/5.14.2 
+  324  ./memechip.sh 
+  325  locate MotifInDremeXML.pm
+  326  sudo mv /home/kipkurui/meme_4.9.1/scripts/MotifInDremeXML.pm /usr/local/lib/perl/5.14.2 
+  327  ./memechip.sh 
+  328  locate DremeSAX.pm
+  329  ./memechip.sh 
+  330  locate DremeSAX.pm
+  331  sudo mv /home/kipkurui/meme_4.9.0/scripts/DremeSAX.pm /usr/local/lib/perl/5.14.2 
+  332* 
+  333  locate JsonRdr.pm
+  334  sudo mv /home/kipkurui/meme_4.9.0/scripts/JsonRdr.pm /usr/local/lib/perl/5.14.2 
+  335  ./memechip.sh 
+  336  locate HtmlMonolithWr.pm
+  337  ./memechip.sh 
+  338  locate HtmlMonolithWr.pm
+  339  sudo mv /home/kipkurui/meme_4.9.0/scripts/HtmlMonolithWr.pm /usr/local/lib/perl/5.14.2 
+  340  ./memechip.sh 
+  341  locate JsonWr.pm
+  342  sudo mv /home/kipkurui/meme_4.9.0/scripts/JsonWr.pm /usr/local/lib/perl/5.14.2 
+  343  ./memechip.sh 
+  344  history
+  345  history > execute.txt
