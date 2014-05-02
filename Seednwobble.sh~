@@ -7,7 +7,7 @@ script="/home/kipkurui/Project/Scripts/PHD"
 for kmer in $(cat tfnames.txt);
 do
 	mkdir -p "/home/kipkurui/Project/Results/PBM/$kmer"
-	#cd /home/kipkurui/Project/Results/PBM/$kmer
+	cd /home/kipkurui/Project/Results/PBM/$kmer
 	#perl seed_and_wobble_twoarray.pl TF_v1_combinatorial.txt TF_v2_combinatorial.txt 8 query_patterns.txt all_patterns.txt output_prefix
 	perl $script/cal-seed_and_wobble_twoarray.pl $debru/$kmer*v1_deBruijn.txt $debru/$kmer*v2_deBruijn.txt 8 $script/patterns_8of10.txt $script/patterns_4x44k_all_8mer.txt $kmer $DNase
 done
