@@ -16,8 +16,8 @@ os.chdir(patterns) #get the patterns
 os.system("ls /home/kipkurui/Project/Data/PBM/All_deBruijn/SCI09 >SCI09_deBruijn_list.txt") #save the cimbinatorial file
 
 f1=open("./SCI09_deBruijn_list.txt", "r")
-	debru=f1.readlines()
-	tflist=open("./SCI09-tfs.txt", "r")
+debru=f1.readlines()
+tflist=open("./SCI09-tfs.txt", "r")
 for tfs in tflist:
     #os.chdir("/home/kipkurui/PHD-project/Data/k-mers/All_Contig8mers")
     tf=tfs.strip()[:-16]

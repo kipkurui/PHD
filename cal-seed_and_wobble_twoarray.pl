@@ -308,6 +308,11 @@ while ($tally<=$#seed_patterns) {
 #####################################################
 #Count the kmer frequency
 #####################################################
+
+foreach my $name (sort { $top_kmerareas_combined{$b} <=> $top_kmerareas_combined{$a} or $b cmp $a } keys %top_kmerareas_combined) {
+    #printf "%-8s %s\n", $name, $newEscore{$name};
+}
+
 my %counts=();
 my $count=0;
 my $Track=0;
@@ -354,16 +359,27 @@ foreach my $name (sort { $newEscore{$a} <=> $newEscore{$b} or $a cmp $b } keys %
 #######################################################################
 #Convert the NewEscore range to remain the same
 #######################################################################
-my $N_min=-0.5;
-my $N_max=0.5;
-my $O_max=(sort {$newEscore{$b} <=> $newEscore{$a}} keys %newEscore)[0];
-my $O_min=(sort {$newEscore{$b} <=> $newEscore{$a}} keys %newEscore)[-1];
-my $Orange=$hash{$e}-$hash{$f};
-my $Nrange=$N_max-$N_min;
+#my %hold;
+#my $N_min=-0.499;
+#my $N_max=0.499;
+#my $N_max=(sort {$top_kmerareas_combined{$b} <=> $top_kmerareas_combined{$a}} keys %top_kmerareas_combined)[0];
+#my $N_min=(sort {$top_kmerareas_combined{$b} <=> $top_kmerareas_combined{$a}} keys %top_kmerareas_combined)[-1];
+#my $O_max=(sort {$newEscore{$b} <=> $newEscore{$a}} keys %newEscore)[0];
+#my $O_min=(sort {$newEscore{$b} <=> $newEscore{$a}} keys %newEscore)[-1];
+#my $Orange=$newEscore{$O_max}-$newEscore{$O_min};
+#my $Nrange=$N_max-$N_min;
+#my $Nrange=$top_kmerareas_combined{$N_max}-$top_kmerareas_combined{$N_min};
+#print $Nrange;
+#foreach my $key (keys %newEscore){
+#	$hold{$key}=((($newEscore{$key}-$newEscore{$O_min})*$Nrange)/$Orange)+$top_kmerareas_combined{$N_min}; 
+#}
 
-foreach my $key (keys %newEscore){
-	$newEscore{$key}=((($newEscore{$key}-$O_min)*$Nrange)/$Nrange)+$N_min; 
-}
+#print Dumper(\%hold);
+#%newEscore=%hold;
+#foreach my $name (sort { $newEscore{$a} <=> $newEscore{$b} or $a cmp $b } keys %newEscore) {
+    #printf "%-8s %s\n", $name, $newEscore{$name};
+#}
+#print Dumper(\%newEscore);
 #################################################
 # Find top N seeds (adapted from A. Philippakis)
 #################################################

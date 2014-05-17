@@ -31,7 +31,7 @@ for tfs in tflist:
             os.chdir("%s/SCI09-PWM/%s" % (results,tf[:-5]))
             #with open ("%s/SCI09-PWM/%s/%s-%s.uniprobe" % (results,tfs.strip()[:-21],tf,str(n)), "w") as outfile:
             subprocess.call("perl %s/cal-seed_and_wobble_twoarray.pl %s/SCI09/%s.%s_v1_deBruijn.txt %s/SCI09/%s.%s_v2_deBruijn.txt 8 %s/patterns_8of10.txt %s/patterns_4x44k_all_8mer.txt %s %s" 
-                                   % (patterns,debruin,tf,str(n),debruin,tf,str(n),patterns,patterns,tfs.strip()[:-21]+str(n),DNase), shell=True, stderr=errf)
+                                   % (script,debruin,tf,str(n),debruin,tf,str(n),patterns,patterns,tfs.strip()[:-21]+str(n),DNase), shell=True, stderr=errf)
         else:
             continue
 f1.close()
