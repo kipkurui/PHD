@@ -20,7 +20,7 @@ for tf in Max # $(cat  $file1/tennew);
 do
 	for lab in Sydh Haib
 	do 
-		for cl in K562 Helas3 T47d Shsy5y Imr90 A549 Nb4 Hct116 Hek293 Panc1 Mcf7 Gm12878 H1hesc Hepg2 
+		for cl in Hepg2 K562 Helas3 T47d Shsy5y Imr90 A549 Nb4 Hct116 Hek293 Panc1 Mcf7 Gm12878 H1hesc 
 		do
    			echo "doing $tf-$cl..."
 			memechip

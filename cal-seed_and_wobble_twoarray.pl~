@@ -354,6 +354,13 @@ foreach my $name (sort { $newEscore{$a} <=> $newEscore{$b} or $a cmp $b } keys %
 #######################################################################
 #Convert the NewEscore range to remain the same
 #######################################################################
+my %hash = (
+    small   => 1,
+    medium  => 5,
+    largest => 10,
+    large   => 8,
+    tiny    => 0.1,
+);
 my $N_min=-0.5;
 my $N_max=0.5;
 my $O_max=(sort {$newEscore{$b} <=> $newEscore{$a}} keys %newEscore)[0];
